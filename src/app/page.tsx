@@ -40,7 +40,7 @@ const texts = {
       },
       {
         title: "E-commerce",
-        desc: "Creation of automated routines and integrations with APIs, CRMs, N8N. Reduce manual tasks and increase the productivity of your business.",
+        desc: "Custom online stores built for conversion. With integrated checkouts and gateways, providing a clear and optimized user journey.",
       }
     ],
 
@@ -49,13 +49,13 @@ const texts = {
     {
       title: 'SaaS Landing Page',
       desc: 'Built as the entry point for the ERP platform, this responsive landing page was designed to build authority, capture leads, and provide a smooth user experience. Fast-loading, SEO-optimized, and enhanced with subtle animations.',
-      tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
+      tech: ['Typescript', 'Next.js', 'CSS Modules', 'Framer Motion', 'Supabase'],
       link: 'https://www.nanosoft.com.br',
     },
     {
       title: 'ERP Web – Scalable Management',
       desc: 'Designed to let entrepreneurs focus on growing their business, the system works across all devices, is highly scalable, and ready to expand with integrations that support marketing efforts and the addition of new modules.',
-      tech: ['C#', '.NET', 'Microsoft SQL Server'],
+      tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },
   ],

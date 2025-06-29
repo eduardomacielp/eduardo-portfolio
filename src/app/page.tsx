@@ -102,13 +102,13 @@ const texts = {
     {
       title: 'Landing Page SaaS',
       desc: 'Criada como porta de entrada para o ERP, esta landing page responsiva foi pensada para gerar autoridade, captar usuários e oferecer uma navegação fluida. Possui carregamento rápido, SEO otimizado e animações suaves para uma boa experiência.',
-      tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
+      tech: ['Typescript', 'Next.js', 'CSS Modules', 'Framer Motion', 'Supabase'],
       link: 'https://www.nanosoft.com.br',
     },
     {
       title: 'ERP Web – Gestão Escalável',
       desc: 'Desenvolvido para que o empreendedor foque no crescimento do negócio, o sistema é acessível em todos os dispositivos, altamente escalável e pronto para crescer com integrações que facilitam ações de marketing e a adição de novos módulos.',
-      tech: ['C#', '.NET', 'Microsoft SQL Server'],
+      tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },
   ],

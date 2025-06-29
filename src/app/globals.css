@@ -34,9 +34,3 @@ body {
 *::after {
   box-sizing: border-box;
 }
-
-@media (max-width: 576px) {
-  header {
-    max-width: 365px;
-  }
-}

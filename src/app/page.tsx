@@ -142,77 +142,77 @@ export default function Home() {
     <main className="min-h-screen w-full px-6 py-4 scroll-smooth">
       {/* Navbar */}
       <header className="fixed top-0 left-0 w-full backdrop-blur-sm border-b border-zinc-800 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center relative">
-        {/* Logo + Language */}
-        <div className="flex items-center gap-3 flex-shrink min-w-0"> 
-          <h1 className="text-xl font-bold text-teal-400 whitespace-nowrap overflow-hidden text-ellipsis">Eduardo M.</h1> 
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 flex justify-between items-center gap-2">
+          {/* Logo + Language */}
+          <div className="flex items-center gap-3 flex-shrink min-w-0"> 
+            <h1 className="text-xl font-bold text-teal-400 whitespace-nowrap overflow-hidden text-ellipsis">Eduardo M.</h1> 
+            <button
+              onClick={() => setLang(lang === 'en' ? 'pt' : 'en')}
+              className="border border-teal-400 text-teal-400 px-2 py-1 rounded text-sm hover:bg-teal-400 hover:text-black transition flex-shrink-0 cursor-pointer" 
+              aria-label="Change language"
+            >
+              {lang === 'en' ? 'PT-BR' : 'EN-US'}
+            </button>
+          </div>
+
+          {/* Botão hamburger mobile */}
           <button
-            onClick={() => setLang(lang === 'en' ? 'pt' : 'en')}
-            className="border border-teal-400 text-teal-400 px-2 py-1 rounded text-sm hover:bg-teal-400 hover:text-black transition flex-shrink-0 cursor-pointer" 
-            aria-label="Change language"
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden ml-auto text-teal-400 relative w-6 h-6 flex-shrink-0" 
+            aria-label="Toggle menu"
           >
-            {lang === 'en' ? 'PT-BR' : 'EN-US'}
+            <AnimatePresence mode="wait" initial={false}>
+              {isOpen ? (
+                <motion.div
+                  key="x-icon"
+                  initial={{ rotate: -90, opacity: 0 }}
+                  animate={{ rotate: 0, opacity: 1 }}
+                  exit={{ rotate: 90, opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute inset-0 flex items-center justify-center"
+                >
+                  <BsX className="w-7 h-7" />
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="justify-icon"
+                  initial={{ rotate: 90, opacity: 0 }}
+                  animate={{ rotate: 0, opacity: 1 }}
+                  exit={{ rotate: -90, opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute inset-0 flex items-center justify-center"
+                >
+                  <BsJustify className="w-7 h-7" />
+                </motion.div>
+              )}
+            </AnimatePresence>
           </button>
-        </div>
 
-        {/* Botão hamburger mobile */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden ml-auto text-teal-400 relative w-6 h-6 flex-shrink-0" 
-          aria-label="Toggle menu"
-        >
-          <AnimatePresence mode="wait" initial={false}>
-            {isOpen ? (
-              <motion.div
-                key="x-icon"
-                initial={{ rotate: -90, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                exit={{ rotate: 90, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-                className="absolute inset-0 flex items-center justify-center"
-              >
-                <BsX className="w-7 h-7" />
-              </motion.div>
-            ) : (
-              <motion.div
-                key="justify-icon"
-                initial={{ rotate: 90, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                exit={{ rotate: -90, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-                className="absolute inset-0 flex items-center justify-center"
-              >
-                <BsJustify className="w-7 h-7" />
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </button>
-
-        {/* Menu desktop */}
-        <nav className="hidden md:flex space-x-4 text-sm font-medium">
-          {textNav.navbar.map((item, idx) => (
-            <Link key={idx} href={item.href} className="hover:text-teal-400">
-              {item.text}
-            </Link>
-          ))}
-        </nav>
-      </div>
-
-      {/* Menu mobile (fora do header content) */}
-      {isOpen && (
-        <nav className="md:hidden bg-zinc-900/80 backdrop-blur-sm border-t border-zinc-800 px-4 py-4 flex flex-col space-y-3 font-medium">
-          {textNav.navbar.map((item, idx) => (
-              <Link
-                key={idx}
-                href={item.href} 
-                className="hover:text-teal-400"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.text} 
+          {/* Menu desktop */}
+          <nav className="hidden md:flex space-x-4 text-sm font-medium">
+            {textNav.navbar.map((item, idx) => (
+              <Link key={idx} href={item.href} className="hover:text-teal-400">
+                {item.text}
               </Link>
             ))}
-        </nav>
-      )}
+          </nav>
+        </div>
+
+        {/* Menu mobile (fora do header content) */}
+        {isOpen && (
+          <nav className="md:hidden bg-zinc-900/80 backdrop-blur-sm border-t border-zinc-800 px-4 py-4 flex flex-col space-y-3 font-medium">
+            {textNav.navbar.map((item, idx) => (
+                <Link
+                  key={idx}
+                  href={item.href} 
+                  className="hover:text-teal-400"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.text} 
+                </Link>
+              ))}
+          </nav>
+        )}
     </header>
 
       {/* Hero */}

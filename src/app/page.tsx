@@ -25,40 +25,40 @@ const texts = {
     heroBtnContact: `Let's Connect!`,
 
     aboutTitle: 'About me',
-    aboutDesc: `I'm Eduardo, a 21-year-old developer with a passion for entrepreneurship. Ever since I was a kid, I've always enjoyed creating and building things, which naturally led me to programming. Over the past few years, I've honed my skills in the .NET ecosystem, focusing on developing efficient and well-designed software. Now, I’m transforming ideas into real solutions, learning and sharing knowledge on my YouTube channel, where I share a little about my journey.`,
+    aboutDesc: `I'm Eduardo, a developer in my early twenties driven by technology and entrepreneurship, something that's always been a part of my life. I began my programming journey at 19, motivated by a desire to create and solve problems. Since then, I've been diving deep into the .NET ecosystem, building efficient, scalable, and well-designed solutions. Today, I turn ideas into real products and share parts of that journey on YouTube.`,
     techStackLabel: 'Tech Stack:',
 
     servicesTitle: 'How can I contribute to your digital journey?',
     services: [
       {
         title: "Landing Pages & Websites",
-        desc: "Modern, responsive websites focused on performance, design, and SEO. Ideal for startups, personal brands, and digital products.",
+        desc: "Modern, responsive websites focused on performance, design and SEO. Ideal for startups, personal brands, and digital products.",
       },
       {
-        title: "E-commerce Solutions",
-        desc: "Custom online stores built for scalability and conversion — with secure checkout flows, third-party integrations, and a clear user journey.",
+        title: "Chatbots & Integrations",
+        desc: "Build smart chatbots and integrate your business with the APIs to automate customer service, reduce manual tasks, and boost productivity.",
       },
       {
-        title: "Tech Advisory & Code Reviews",
-        desc: "Support for teams or founders needing technical guidance, architecture decisions, or clean code reviews in real-world projects.",
-      },
+        title: "E-commerce",
+        desc: "Creation of automated routines and integrations with APIs, CRMs, N8N. Reduce manual tasks and increase the productivity of your business.",
+      }
     ],
 
     projectsTitle: 'Featured projects',
     projects: [
-      {
-        title: 'Web ERP',
-        desc: 'A scalable .NET system featuring clean architecture, mobile-first design, and smart caching strategies to ensure high performance under heavy user load.',
-        tech: ['C#', '.NET', 'Microsoft SQL Server'],
-        link: 'https://nanosoftware.azurewebsites.net/login',
-      },
-      {
-        title: 'Landing Page SaaS',
-        desc: 'Built with Next.js and CSS Modules, optimized for SEO and fast loading. Fully responsive and enhanced with smooth Framer Motion animations for a seamless user experience.',
-        tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
-        link: 'https://www.nanosoft.com.br',
-      },
-    ],
+    {
+      title: 'SaaS Landing Page',
+      desc: 'Built as the entry point for the ERP platform, this responsive landing page was designed to build authority, capture leads, and provide a smooth user experience. Fast-loading, SEO-optimized, and enhanced with subtle animations.',
+      tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
+      link: 'https://www.nanosoft.com.br',
+    },
+    {
+      title: 'ERP Web – Scalable Management',
+      desc: 'Designed to let entrepreneurs focus on growing their business, the system works across all devices, is highly scalable, and ready to expand with integrations that support marketing efforts and the addition of new modules.',
+      tech: ['C#', '.NET', 'Microsoft SQL Server'],
+      link: 'https://nanosoftware.azurewebsites.net/login',
+    },
+  ],
 
     contactTitle: 'Connect',
     contactDesc: 'Networking happens when people share ideas and build real connections. Building something, expanding your network, or want to chat tech? Hit me up!',
@@ -73,12 +73,12 @@ const texts = {
   pt: {
     navbar: ['Sobre', 'Serviços', 'Projetos', 'Contato'],
     heroTitle: 'Building softwares and ideas',
-    heroDesc: 'I’m a Full-Stack Developer in the .NET world, helping ideas become real through code quality, performance, and thoughtful design.',
+    heroDesc: 'Sou um desenvolvedor full-stack no mundo .NET, ajudando ideias a se tornarem realidade por meio de qualidade de código, desempenho e design inteligente.',
     heroBtnProjects: 'Ver Projetos',
     heroBtnContact: 'Entre em Contato!',
 
     aboutTitle: 'Sobre mim',
-    aboutDesc: `Sou Eduardo, um desenvolvedor de 21 anos apaixonado por empreendedorismo. Desde criança, sempre gostei de criar e construir coisas, o que naturalmente me levou à programação. Nos últimos anos, aperfeiçoei minhas habilidades no ecossistema .NET, focando em desenvolver softwares eficientes e bem planejados. Hoje, venho transformando ideias em soluções reais, aprendendo e compartilhando conhecimento no meu canal no YouTube, onde conto um pouco da minha jornada.`,
+    aboutDesc: `Sou Eduardo, um desenvolvedor no início dos meus 20 anos, movido por tecnologia e empreendedorismo, algo que sempre fez parte da minha vida. Comecei minha jornada na programação aos 19 anos, impulsionado pela vontade de criar e resolver problemas. Desde então, venho me aprofundando no ecossistema .NET, desenvolvendo soluções eficientes, escaláveis e bem planejadas. Hoje, transformo ideias em produtos reais e compartilho um pouco dessa trajetória no YouTube.`,
     techStackLabel: 'Tecnologias:',
 
     servicesTitle: 'Como posso contribuir em sua jornada no digital?',
@@ -88,30 +88,30 @@ const texts = {
         desc: "Sites modernos, responsivos e focados em performance, design e SEO. Ideal para startups, marcas pessoais e produtos digitais.",
       },
       {
-        title: "Soluções de E-commerce",
-        desc: "Lojas online personalizadas, construídas para conversão. Com checkouts e gateways integrados, proporcionando uma jornada clara para o usuário.",
+        title: "Chatbots & Integrações",
+        desc: "Crie chatbots inteligentes e integre seu negócio com a API do WhatsApp para automatizar atendimentos e aumentar a produtividade.",
       },
       {
-        title: "Consultoria Técnica",
-        desc: "Apoio para times ou fundadores que precisam de orientação técnica, decisões de arquitetura ou revisão de código limpo em projetos reais.",
-      },
+        title: "E-commerce",
+        desc: "Lojas online personalizadas, construídas para conversão. Com checkouts e gateways integrados, proporcionando uma jornada clara para o usuário.",
+      }
     ],
 
     projectsTitle: 'Projetos em destaque',
     projects: [
-      {
-        title: 'ERP Web',
-        desc: 'Sistema .NET escalável com arquitetura limpa, design mobile-first e estratégias inteligentes de cache, tendo alta performance para suportar centenas de usuários.',
-        tech: ['C#', '.NET', 'Microsoft SQL Server'],
-        link: 'https://nanosoftware.azurewebsites.net/login',
-      },
-      {
-        title: 'Landing Page SaaS',
-        desc: 'Construída com Next.js e CSS Modules, foi otimizada para SEO e carregamento rápido. Totalmente responsiva e com animações suaves usando Framer Motion para uma experiência fluida.',
-        tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
-        link: 'https://www.nanosoft.com.br',
-      },
-    ],
+    {
+      title: 'Landing Page SaaS',
+      desc: 'Criada como porta de entrada para o ERP, esta landing page responsiva foi pensada para gerar autoridade, captar usuários e oferecer uma navegação fluida. Possui carregamento rápido, SEO otimizado e animações suaves para uma boa experiência.',
+      tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
+      link: 'https://www.nanosoft.com.br',
+    },
+    {
+      title: 'ERP Web – Gestão Escalável',
+      desc: 'Desenvolvido para que o empreendedor foque no crescimento do negócio, o sistema é acessível em todos os dispositivos, altamente escalável e pronto para crescer com integrações que facilitam ações de marketing e a adição de novos módulos.',
+      tech: ['C#', '.NET', 'Microsoft SQL Server'],
+      link: 'https://nanosoftware.azurewebsites.net/login',
+    },
+  ],
 
     contactTitle: 'Redes Sociais',
     contactDesc: 'O networking acontece quando as pessoas compartilham ideias e constroem conexões reais. Construindo algo, expandindo sua rede ou quer bater um papo sobre tecnologia? Me chama!',
@@ -130,16 +130,24 @@ export default function Home() {
   const t = texts[lang]
 
   const textNav = {
-    navbar: [
+    en: [
       { text: 'About', href: '#about' },
       { text: 'Services', href: '#services' },
       { text: 'Projects', href: '#projects' },
       { text: 'Contact', href: '#contact' }
     ],
-  };
+    pt: [
+      { text: 'Sobre', href: '#about' },
+      { text: 'Serviços', href: '#services' },
+      { text: 'Projetos', href: '#projects' },
+      { text: 'Contato', href: '#contact' }
+    ]
+  }
+
+  const navItems = textNav[lang]
 
   return (
-    <main className="min-h-screen w-full px-6 py-4 scroll-smooth">
+    <main className="min-h-screen px-12 py-4 scroll-smooth">
       {/* Navbar */}
       <header className="fixed top-0 left-0 w-full backdrop-blur-sm border-b border-zinc-800 z-50">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 flex justify-between items-center gap-2">
@@ -190,7 +198,7 @@ export default function Home() {
 
           {/* Menu desktop */}
           <nav className="hidden md:flex space-x-4 text-sm font-medium">
-            {textNav.navbar.map((item, idx) => (
+            {navItems.map((item, idx) => (
               <Link key={idx} href={item.href} className="hover:text-teal-400">
                 {item.text}
               </Link>
@@ -201,7 +209,7 @@ export default function Home() {
         {/* Menu mobile (fora do header content) */}
         {isOpen && (
           <nav className="md:hidden bg-zinc-900/80 backdrop-blur-sm border-t border-zinc-800 px-4 py-4 flex flex-col space-y-3 font-medium">
-            {textNav.navbar.map((item, idx) => (
+            {navItems.map((item, idx) => (
                 <Link
                   key={idx}
                   href={item.href} 
@@ -213,10 +221,10 @@ export default function Home() {
               ))}
           </nav>
         )}
-    </header>
+      </header>
 
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center text-center min-h-screen max-w-3xl mx-auto pt-28 px-4 sm:px-6 lg:px-0">
+      <section className="flex flex-col items-center justify-center text-center min-h-screen max-w-3xl mx-auto pt-15 px-0">
         <motion.h2
           className="text-5xl font-extrabold text-white drop-shadow-md"
           initial={{ opacity: 0, y: 30 }}
@@ -306,7 +314,7 @@ export default function Home() {
           {t.servicesTitle}
         </motion.h3>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 cursor-pointer">
           {t.services.map((item, i) => (
             <motion.div
               key={i}
@@ -363,7 +371,7 @@ export default function Home() {
       </section>
 
       {/* Contato */}
-      <section id="contact" className="max-w-3xl mx-auto py-20 text-center px-4 sm:px-0">
+      <section id="contact" className="max-w-3xl mx-auto py-20 text-center">
         <motion.h3
           className="text-3xl font-bold text-teal-400 mb-10"
           initial={{ opacity: 0, y: 30 }}

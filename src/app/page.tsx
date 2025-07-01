@@ -39,8 +39,8 @@ const texts = {
         desc: "Build smart chatbots and integrate your business with the APIs to automate customer service, reduce manual tasks, and boost productivity.",
       },
       {
-        title: "E-commerce",
-        desc: "Custom online stores built for conversion. With integrated checkouts and gateways, providing a clear and optimized user journey.",
+        title: "Tech Consulting (.NET & Web)",
+        desc: "Guidance to design, scale, and optimize .NET web apps. Ideal for teams needing architecture reviews and performance optimization",
       }
     ],
 
@@ -54,7 +54,7 @@ const texts = {
     },
     {
       title: 'ERP Web – Scalable Management',
-      desc: 'Designed to let entrepreneurs focus on growing their business, the system works across all devices, is highly scalable, and ready to expand with integrations that support marketing efforts and the addition of new modules.',
+      desc: 'Enables entrepreneurs to efficiently manage their entire business, including finance, operations, and marketing tools like social media, through a scalable all-in-one platform accessible on any device.',
       tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },
@@ -92,8 +92,8 @@ const texts = {
         desc: "Crie chatbots inteligentes e integre seu negócio com a API do WhatsApp para automatizar atendimentos e aumentar a produtividade.",
       },
       {
-        title: "E-commerce",
-        desc: "Lojas online personalizadas, construídas para conversão. Com checkouts e gateways integrados, proporcionando uma jornada clara para o usuário.",
+        title: "Consultoria Técnica (.NET e Web)",
+        desc: "Orientação para projetar e escalar aplicações. Ideal para equipes que buscam revisão de arquitetura e otimização de performance.",
       }
     ],
 
@@ -107,7 +107,7 @@ const texts = {
     },
     {
       title: 'ERP Web – Gestão Escalável',
-      desc: 'Desenvolvido para que o empreendedor foque no crescimento do negócio, o sistema é acessível em todos os dispositivos, altamente escalável e pronto para crescer com integrações que facilitam ações de marketing e a adição de novos módulos.',
+      desc: 'Permite que empreendedores gerenciem toda a empresa, incluindo finanças, operações e ferramentas de marketing como redes sociais, por meio de uma plataforma escalável e acessível em todos os dispositivos.',
       tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },

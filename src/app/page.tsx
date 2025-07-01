@@ -39,8 +39,8 @@ const texts = {
         desc: "Build smart chatbots and integrate your business with the APIs to automate customer service, reduce manual tasks, and boost productivity.",
       },
       {
-        title: "Tech Consulting (.NET & Web)",
-        desc: "Guidance to design, scale, and optimize .NET web apps. Ideal for teams needing architecture reviews and performance optimization",
+        title: "Tech Consulting (.NET)",
+        desc: "Guidance for designing and scaling web applications. Ideal for teams looking for architecture review and performance optimization.",
       }
     ],
 
@@ -54,7 +54,7 @@ const texts = {
     },
     {
       title: 'ERP Web – Scalable Management',
-      desc: 'Enables entrepreneurs to efficiently manage their entire business, including finance, operations, and marketing tools like social media, through a scalable all-in-one platform accessible on any device.',
+      desc: 'Software developed for entrepreneurs to manage their entire business, including finance, operations, and tools for digital marketing and social media management, in a scalable way and accessible on any device.',
       tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },
@@ -92,8 +92,8 @@ const texts = {
         desc: "Crie chatbots inteligentes e integre seu negócio com a API do WhatsApp para automatizar atendimentos e aumentar a produtividade.",
       },
       {
-        title: "Consultoria Técnica (.NET e Web)",
-        desc: "Orientação para projetar e escalar aplicações. Ideal para equipes que buscam revisão de arquitetura e otimização de performance.",
+        title: "Consultoria Técnica (.NET)",
+        desc: "Orientação para projetar e escalar aplicações web. Ideal para equipes que buscam revisão de arquitetura e otimização de performance.",
       }
     ],
 
@@ -107,7 +107,7 @@ const texts = {
     },
     {
       title: 'ERP Web – Gestão Escalável',
-      desc: 'Permite que empreendedores gerenciem toda a empresa, incluindo finanças, operações e ferramentas de marketing como redes sociais, por meio de uma plataforma escalável e acessível em todos os dispositivos.',
+      desc: 'Software desenvolvido para que empreendedores gerenciem toda a empresa, incluindo finanças, operações e ferramentas para marketing digital e gestão de redes sociais, de forma escalável e acessível em qualquer dispositivo.',
       tech: ['C#', '.NET', 'Microsoft SQL Server', 'Azure'],
       link: 'https://nanosoftware.azurewebsites.net/login',
     },

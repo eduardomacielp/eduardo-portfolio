@@ -19,7 +19,7 @@ const texts = {
   en: {
     navbar: ['About', 'Services', 'Projects', 'Contact'],
     heroTitle: 'Building softwares and ideas',
-    heroDesc: "I'm a full-stack developer helping businesses bring ideas to life through technology, performance, and smart design.",
+    heroDesc: "I'm a web developer helping businesses bring ideas to life through technology, performance, and smart design.",
     heroBtnProjects: "How I Can Help",
     heroBtnContact: "Get in Touch!",
 
@@ -78,7 +78,7 @@ const texts = {
   pt: {
     navbar: ['Sobre', 'Serviços', 'Projetos', 'Contato'],
     heroTitle: 'Building softwares and ideas',
-    heroDesc: 'Sou um desenvolvedor full-stack, ajudo negócios a tirarem ideias do papel com tecnologia, performance e design inteligente.',
+    heroDesc: 'Sou um desenvolvedor web que ajuda empresas a dar vida às ideias por meio da tecnologia, desempenho e design inteligente.',
     heroBtnProjects: 'Como Posso Ajudar?',
     heroBtnContact: 'Entre em Contato!',
 

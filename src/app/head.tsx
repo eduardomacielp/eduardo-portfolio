@@ -1,11 +1,10 @@
 import React from 'react'
 
 export default function Head() {
-  const title = 'Eduardo Maciel – Full-Stack .NET Developer'
+  const title = 'Eduardo Maciel – Web Developer'
   const description =
-    'Explore the portfolio of Eduardo Maciel, a Full-Stack .NET Developer creating scalable web applications, e-commerce platforms, and SaaS tools with performance and elegant design.'
+    'Portfolio de Eduardo Maciel: Desenvolvedor Web especializado em criar aplicações de alta performance com Next.js, otimizadas para SEO e e Google Ads. Transformando ideias em resultados reais.'
   const url = 'https://eduardo-portfolio.vercel.app'
-  const image = `${url}/eduardo.png` 
 
   return (
     <>
@@ -21,14 +20,12 @@ export default function Head() {
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
 
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
 
       {/* Favicons */}
       <link rel="icon" href="/favicon.ico" />

@@ -19,31 +19,30 @@ const texts = {
   en: {
     navbar: ['About', 'Services', 'Projects', 'Contact'],
     heroTitle: 'Building softwares and ideas',
-    heroDesc: "I'm a web developer helping businesses bring ideas to life through technology, performance, and smart design.",
+    heroDesc: "I'm a web developer focused on building, creating, and bringing ideas to life through technology and real-world results.",
     heroBtnProjects: "How I Can Help",
     heroBtnContact: "Get in Touch!",
 
     aboutTitle: 'About me',
     aboutDesc: [
-      "Hi! I'm Eduardo, a web developer fueled by technology and entrepreneurship. I started coding at 19 with a clear goal: turning ideas into digital products that actually work. Over the past 2+ years, I’ve specialized in the .NET ecosystem, building scalable and reliable B2B applications.",
-
-      "Lately, I’ve been focused on high-performance web development with Next.js, crafting blazing-fast experiences, fully optimized for SEO and built with Google Ads strategies in mind. My goal is simple: create digital products that are fast, purposeful, and built to reach the right audience and drive real results."
+      "Hi! I'm Eduardo, a web developer driven by technology and entrepreneurship. I started coding at 19 with the goal of turning ideas into digital solutions that deliver real results.",
+      "With over 2 years of experience, I specialize in the .NET ecosystem, building robust, scalable, and well-structured B2B applications. I'm always evolving, also exploring front-end tools like Next.js to deliver more complete and modern solutions.",
     ],
-    techStackLabel: 'Tech Stack:',
+    techStackLabel: 'Stack:',
 
     servicesTitle: 'How can I contribute to your digital journey?',
     services: [
       {
-        title: "Landing Pages",
-        desc: "Responsive layout, attractive design, and focused on performance. Ideal for startups, personal brands, and digital products."
-      },
-      {
-        title: "Advanced SEO + Google Ads",
-        desc: "Go beyond a beautiful website. Rely on strategies to ensure your business is found by those who truly matter and generates conversions."
-      },
-      {
         title: "Technical Consulting (.NET)",
-        desc: "Strategic guidance for teams and startups aiming to build and scale applications with solid architecture and high performance."
+        desc: "I help teams and startups plan, structure, and evolve their applications with a focus on scalability, clean architecture, and high performance.",
+      },
+      {
+        title: "Content Creation",
+        desc: "I share insights about tech careers, the dev market, and programming on social media, and offer 1:1 mentorship for those just getting started.",
+      },
+      {
+        title: "Landing Pages",
+        desc: "Custom-built, high-converting pages with responsive design, SEO optimization, and a focus on speed and performance.",
       }
     ],
 
@@ -78,30 +77,30 @@ const texts = {
   pt: {
     navbar: ['Sobre', 'Serviços', 'Projetos', 'Contato'],
     heroTitle: 'Building softwares and ideas',
-    heroDesc: 'Sou um desenvolvedor web que ajuda empresas a dar vida às ideias por meio da tecnologia, desempenho e design inteligente.',
+    heroDesc: 'Sou um desenvolvedor web, com foco em criar, empreender e impulsionar ideias com tecnologia e resultados reais.',
     heroBtnProjects: 'Como Posso Ajudar?',
     heroBtnContact: 'Entre em Contato!',
 
     aboutTitle: 'Sobre mim',
     aboutDesc: [
-        'Olá! Sou o Eduardo, um desenvolvedor web movido por tecnologia e empreendedorismo, comecei na programação aos 19 anos com o objetivo de transformar ideias em soluções digitais que geram resultado. Com mais de 2 anos de experiência, me especializei no ecossistema .NET, criando aplicações B2B robustas e escaláveis.',
-        'Hoje, foco em performance web com Next.js, desenvolvendo experiências ultrarrápidas, otimizadas para SEO e Google Ads. Minha missão é construir produtos digitais que unam propósito e velocidade, para alcançar o público certo e gerar resultados.',
+      'Olá! Sou o Eduardo, desenvolvedor web movido por tecnologia e empreendedorismo. Comecei na programação aos 19 anos com o objetivo de transformar ideias em soluções digitais que realmente proporcionam resultados.',
+      'Atualmente, com mais de 2 anos de experiência, me especializei no ecossistema .NET, desenvolvendo aplicações B2B robustas, escaláveis e bem estruturadas. Estou sempre em evolução, estudando também outras ferramentas de front-end como Next.js para oferecer soluções cada vez mais completas.',
     ],
-    techStackLabel: 'Tecnologias:',
+    techStackLabel: 'Stack:',
 
     servicesTitle: 'Como posso contribuir em sua jornada no digital?',
     services: [
       {
+        title: "Consultoria Técnica (.NET)",
+        desc: "Ajudo equipes e startups a planejarem, estruturarem e evoluírem suas aplicações com foco em escalabilidade, boas práticas e alta performance.",
+      },
+      {
+        title: "Criação de Conteúdo",
+        desc: "Compartilho dicas sobre carreira, mercado e tecnologia nas redes sociais e ofereço mentoria individual para iniciantes.",
+      },
+      {
         title: "Landing Pages",
-        desc: "Com layout responsivo, design atrativo e focada em performance. Ideal para startups, marcas pessoais e produtos digitais.",
-      },
-      {
-        title: "SEO Avançado + Google Ads",
-        desc: "Vá além de um site bonito, conte com estratégias para que seu negócio seja encontrado por quem realmente importa e gere conversão.",
-      },
-      {
-        title: `Consultoria Técnica (.NET)`,
-        desc: "Orientação estratégica para times e startups que buscam criar e escalar aplicações com arquitetura sólida e alta performance.",
+        desc: "Criação de páginas personalizadas e otimizadas para conversão, com design responsivo, SEO e performance como prioridade.",
       }
     ],
 
@@ -136,7 +135,6 @@ const texts = {
 
 export default function Home() {
   const [lang, setLang] = useState<'en' | 'pt'>('pt')
-  const [isOpen, setIsOpen] = useState(false)
   const t = texts[lang]
 
   const textNav = {
@@ -202,7 +200,7 @@ export default function Home() {
     <main className="min-h-screen px-4 md:px-12 py-4 scroll-smooth">
       {/* Navbar */}
       <header className="fixed top-0 left-0 w-full backdrop-blur-sm border-b border-zinc-800 z-50">
-        <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 flex justify-between items-center gap-2">
+        <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 flex justify-center md:justify-between items-center gap-2">
           {/* Logo + Language */}
           <div className="flex items-center gap-3 flex-shrink min-w-0"> 
             <h1 className="text-xl font-bold text-teal-400 whitespace-nowrap overflow-hidden text-ellipsis">Eduardo Maciel</h1> 
@@ -215,39 +213,6 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Botão hamburger mobile */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden ml-auto text-teal-400 relative w-6 h-6 flex-shrink-0" 
-            aria-label="Toggle menu"
-          >
-            <AnimatePresence mode="wait" initial={false}>
-              {isOpen ? (
-                <motion.div
-                  key="x-icon"
-                  initial={{ rotate: -90, opacity: 0 }}
-                  animate={{ rotate: 0, opacity: 1 }}
-                  exit={{ rotate: 90, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="absolute inset-0 flex items-center justify-center"
-                >
-                  <BsX className="w-7 h-7" />
-                </motion.div>
-              ) : (
-                <motion.div
-                  key="justify-icon"
-                  initial={{ rotate: 90, opacity: 0 }}
-                  animate={{ rotate: 0, opacity: 1 }}
-                  exit={{ rotate: -90, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="absolute inset-0 flex items-center justify-center"
-                >
-                  <BsJustify className="w-7 h-7" />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </button>
-
           {/* Menu desktop */}
           <nav className="hidden md:flex space-x-4 text-sm font-medium">
             {navItems.map((item, idx) => (
@@ -257,22 +222,6 @@ export default function Home() {
             ))}
           </nav>
         </div>
-
-        {/* Menu mobile (fora do header content) */}
-        {isOpen && (
-          <nav className="md:hidden bg-zinc-900/80 backdrop-blur-sm border-t border-zinc-800 px-4 py-4 flex flex-col space-y-3 font-medium">
-            {navItems.map((item, idx) => (
-                <Link
-                  key={idx}
-                  href={item.href} 
-                  className="hover:text-teal-400"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.text} 
-                </Link>
-              ))}
-          </nav>
-        )}
       </header>
 
       {/* Hero */}
@@ -337,7 +286,7 @@ export default function Home() {
 
         {/* Stack */}
         <motion.div
-          className="mt-10 flex flex-wrap justify-center gap-6 px-2"
+          className="mt-10 flex flex-wrap justify-center gap-6 px-4"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}

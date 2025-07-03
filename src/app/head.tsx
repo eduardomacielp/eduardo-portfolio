@@ -1,10 +1,8 @@
-import React from 'react'
-
 export default function Head() {
   const title = 'Eduardo Maciel – Web Developer'
   const description =
-    'Portfolio de Eduardo Maciel: Desenvolvedor Web especializado em criar aplicações de alta performance com Next.js, otimizadas para SEO e e Google Ads. Transformando ideias em resultados reais.'
-  const url = 'https://eduardo-portfolio.vercel.app'
+    'Portfolio de Eduardo Maciel: Desenvolvedor Web especializado em criar aplicações de alta performance. Transformando ideias em resultados reais.'
+  const url = 'https://eduardom-portfolio.vercel.app/'
 
   return (
     <>
@@ -15,7 +13,7 @@ export default function Head() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="UTF-8" />
 
-      {/* Open Graph (Facebook/LinkedIn/etc) */}
+      {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />

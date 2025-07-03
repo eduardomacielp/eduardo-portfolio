@@ -17,7 +17,7 @@ const stackIcons = [
 const texts = {
   en: {
     navbar: ['About', 'Services', 'Projects', 'Contact'],
-    heroTitle: 'Building softwares and ideas',
+    heroTitle: 'Building softwares & ideas',
     heroDesc: "I'm a web developer focused on building, creating, and bringing ideas to life through technology and real-world results.",
     heroBtnProjects: "How I Can Help",
     heroBtnContact: "Get in Touch!",
@@ -75,7 +75,7 @@ const texts = {
 
   pt: {
     navbar: ['Sobre', 'Serviços', 'Projetos', 'Contato'],
-    heroTitle: 'Building softwares and ideas',
+    heroTitle: 'Building softwares & ideas',
     heroDesc: 'Sou um desenvolvedor web, com foco em criar, empreender e impulsionar ideias com tecnologia e resultados reais.',
     heroBtnProjects: 'Como Posso Ajudar?',
     heroBtnContact: 'Entre em Contato!',

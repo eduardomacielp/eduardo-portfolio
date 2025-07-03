@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { BsX, BsJustify } from 'react-icons/bs'
+import { motion } from 'framer-motion'
 import emailjs from 'emailjs-com'
 import Link from 'next/link'
 

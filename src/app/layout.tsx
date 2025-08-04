@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Eduardo Maciel – Web Developer',
+  title: 'Eduardo Maciel',
   description: 'Portfolio de Eduardo Maciel: Desenvolvedor Web especializado em criar aplicações de alta performance. Transformando ideias em resultados reais.',
   keywords: '.net, csharp, nextjs, typescript, desenvolvimento web',
   authors: [{ name: 'Eduardo Maciel', url: 'https://eduardom-portfolio.vercel.app' }]

@@ -29,36 +29,36 @@ const texts = {
     ],
     techStackLabel: 'Stack:',
 
-    servicesTitle: 'How can I contribute to your digital journey?',
+    servicesTitle: 'How can I contribute to your digital journey',
     services: [
       {
-        title: "Technical Consulting (.NET)",
-        desc: "I help teams and startups plan, structure, and evolve their applications with a focus on scalability, clean architecture, and high performance.",
+        title: "Product Development",
+        desc: "I build scalable web solutions with .NET, focusing on user experience and turning ideas into real digital products.",
       },
       {
         title: "Content Creation",
-        desc: "I share insights about tech careers, the dev market, and programming on social media, and offer 1:1 mentorship for those just getting started.",
+        desc: "Passionate about technology, I create content to inspire and support those looking to grow in development and tech.",
       },
       {
-        title: "Landing Pages",
-        desc: "Custom-built, high-converting pages with responsive design, SEO optimization, and a focus on speed and performance.",
+        title: "Partnerships & Networking",
+        desc: "I connect with startups and professionals to collaborate, exchange ideas, and build projects that align technology and business.",
       }
     ],
 
     projectsTitle: 'Featured projects',
     projects: [
       {
-        title: 'SaaS Landing Page',
-        desc: 'Created as the main entry point for an ERP, this landing page was designed to build authority, capture users, and offer a fluid navigation. It features fast loading, optimized SEO, and smooth animations for a great experience.',
-        tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
-        link: 'https://www.nanosoft.com.br',
+        title: 'Lisse Med – Medical Management Software',
+        desc: 'Built so clinics and independent doctors can focus on patient care and business growth. The system is accessible on all devices and designed to grow alongside the business.',
+        tech: ['C#', '.NET', 'Next.js', 'Azure'],
+        link: 'https://www.lissemed.com.br'
       },
       {
-        title: 'Web ERP – Intelligent Management',
-        desc: 'Developed so entrepreneurs can focus on business growth, the system is accessible across all devices, highly scalable, and prepared with integrations that facilitate marketing actions and the addition of new modules.',
-        tech: ['C#', '.NET', 'Microsoft SQL Server'],
-        link: 'https://nanosoftware.azurewebsites.net/login',
-      },
+        title: 'My First Website',
+        desc: 'One of the starting points of my journey as a developer, a project that taught me a lot about web development, dedication, and the importance of building a solid foundation from the very beginning.',
+        tech: ['Bootstrap', 'HTML', 'CSS'],
+        link: 'https://www.nanosoft.com.br'
+      }
     ],
 
     contactTitle: `Let’s Build Something Great!`,
@@ -90,33 +90,33 @@ const texts = {
     servicesTitle: 'Como posso contribuir em sua jornada no digital?',
     services: [
       {
-        title: "Consultoria Técnica (.NET)",
-        desc: "Ajudo equipes e startups a planejarem, estruturarem e evoluírem suas aplicações com foco em escalabilidade, boas práticas e alta performance.",
+        title: "Construção de Produtos",
+        desc: "Crio soluções web escaláveis com .NET, focando na experiência do usuário e na transformação de ideias em produtos digitais reais.",
       },
       {
         title: "Criação de Conteúdo",
-        desc: "Compartilho dicas sobre carreira, mercado e tecnologia nas redes sociais e ofereço mentoria individual para iniciantes.",
+        desc: "Sempre fascinado por tecnologia, produzo conteúdos para inspirar e apoiar quem quer evoluir na área de desenvolvimento e tecnologia.",
       },
       {
-        title: "Landing Pages",
-        desc: "Criação de páginas personalizadas e otimizadas para conversão, com design responsivo, SEO e performance como prioridade.",
+        title: "Parcerias & Networking",
+        desc: "Conecto com startups e profissionais para colaborar, trocar ideias e construir projetos que alinhem tecnologia e negócio.",
       }
     ],
 
     projectsTitle: 'Projetos em destaque',
     projects: [
       {
-        title: 'Landing Page SaaS',
-        desc: 'Criada como porta de entrada para o ERP, essa landing page foi pensada para gerar autoridade, captar usuários e oferecer uma navegação fluida. Construída para carregamento rápido, SEO otimizado e animações para uma boa experiência.',
-        tech: ['Next.js', 'CSS Modules', 'Framer Motion'],
-        link: 'https://www.nanosoft.com.br',
+        title: 'Lisse Med – Software de gestão médica',
+        desc: 'Desenvolvido para que clínicas e médicos autônomos foquem no atendimento e crescimento do negócio, o sistema é acessível em todos os dispositivos e pensado para crescer junto com o negócio.',
+        tech: ['C#', '.NET', 'Next.js', 'Azure'],
+        link: 'https://www.lissemed.com.br'
       },
       {
-        title: 'ERP Web – Gestão Inteligente',
-        desc: 'Desenvolvido para que o empreendedor foque no crescimento do negócio, o sistema é acessível em todos os dispositivos, altamente escalável e preparado com integrações que facilitam ações de marketing e a adição de novos módulos.',
-        tech: ['C#', '.NET', 'Microsoft SQL Server'],
-        link: 'https://nanosoftware.azurewebsites.net/login',
-      },
+        title: 'Meu Primeiro Site',
+        desc: 'Um dos pontos de partida da minha trajetória como desenvolvedor, um projeto que me ensinou muito sobre criação web, dedicação e a importância de construir uma base sólida desde o começo.',
+        tech: ['Bootstrap', 'HTML', 'CSS'],
+        link: 'https://www.nanosoft.com.br'
+      }
     ],
 
     contactTitle: `Vamos construir algo incrível!`,

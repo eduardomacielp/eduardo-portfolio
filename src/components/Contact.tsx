@@ -160,7 +160,7 @@ export default function Contact({
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 bg-zinc-900/50 rounded-lg border border-zinc-800 hover:border-blue-700/50 transition-colors duration-200"
               >
-                <div className="w-10 h-10 bg-blue-700/10 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-blue-400/80 rounded-lg flex items-center justify-center">
                   <link.icon className="w-5 h-5 text-slate-100" />
                 </div>
                 <div>

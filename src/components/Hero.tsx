@@ -9,7 +9,7 @@ interface HeroProps {
   secondaryButton: string
 }
 
-export default function Hero({ title, description, primaryButton, secondaryButton }: HeroProps) {
+export default function Hero({ description, primaryButton, secondaryButton }: HeroProps) {
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-screen max-w-3xl mx-auto px-6 pt-20">
       <motion.div

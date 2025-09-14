@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Image from 'next/image'
 
 interface AboutProps {
   title: string
@@ -127,7 +128,7 @@ export default function About({ title, description, techStackLabel, techStack }:
                     <div className="relative">
                       {/* Tech icon container */}
                       <div className="w-16 h-16 md:w-18 md:h-18 bg-zinc-800/60 rounded-xl border border-zinc-700/50 flex items-center justify-center group-hover:bg-zinc-700/70 group-hover:border-zinc-600/70 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-black/20">
-                        <img
+                        <Image
                           src={`https://skillicons.dev/icons?i=${tech}&theme=light`}
                           alt={`${tech} technology icon`}
                           className="w-8 h-8 md:w-9 md:h-9"

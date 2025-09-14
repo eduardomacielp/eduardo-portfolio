@@ -17,16 +17,16 @@ export const translations = {
     servicesTitle: 'How can I contribute to your digital journey',
     services: [
       {
-        title: "Scalable Web Applications",
-        desc: "I build end-to-end web solutions, prioritizing performance, usability, and sustainable code that grows with the business.",
-      },
-      {
         title: "Technical Consulting", 
-        desc: "I provide strategic technology guidance, from software architecture to development process optimization.",
+        desc: "Strategic guidance in technology, from software architecture to development process optimization.",
       },
       {
-        title: "A.I Automation",
-        desc: "I develop intelligent workflows in .NET, integrating AI to automate tasks and optimize business processes.",
+        title: "WhatsApp Business Integration",
+        desc: "Intelligent chatbots and automated customer service via WhatsApp API, connecting your clients to your business 24/7.",
+      },
+      {
+        title: "AI-Powered Workflows",
+        desc: ".NET solutions that integrate AI to automate complex processes and optimize business operations.",
       }
     ],
 
@@ -76,16 +76,16 @@ export const translations = {
     servicesTitle: 'Como posso contribuir em sua jornada no digital?',
     services: [
       {
-        title: "Aplicações Web Escaláveis",
-        desc: "Crio soluções web end-to-end, priorizando performance, usabilidade e código sustentável que cresce com o negócio.",
-      },
-      {
         title: "Consultoria Técnica", 
-        desc: "Ofereço orientação estratégica em tecnologia, desde arquitetura de software até otimização de processos de desenvolvimento.",
+        desc: "Orientação estratégica em tecnologia, desde arquitetura de software até otimização de processos de desenvolvimento.",
       },
       {
-        title: "Automação com A.I",
-        desc: "Desenvolvo workflows inteligentes em .NET, integrando IA para automatizar tarefas e otimizar processos.",
+        title: "Integração WhatsApp Business",
+        desc: "Chatbots inteligentes e automação de atendimento via WhatsApp API, conectando seus clientes ao seu negócio 24/7.",
+      },
+      {
+        title: "Workflows com I.A",
+        desc: "Soluções .NET que integram IA para automatizar processos complexos e otimizar operações empresariais.",
       }
     ],
 

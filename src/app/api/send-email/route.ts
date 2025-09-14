@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
       subject: `Nova mensagem de ${name} - Portfolio`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #14b8a6;">Nova mensagem do portfolio</h2>
+          <h2 style="color:rgb(20, 64, 184);">Nova mensagem do portfolio</h2>
           <p><strong>Nome:</strong> ${name}</p>
           <p><strong>Contato:</strong> ${contact}</p>
           <p><strong>Mensagem:</strong></p>

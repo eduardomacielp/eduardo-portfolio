@@ -21,7 +21,7 @@ export const translations = {
         desc: "Strategic guidance in technology, from software architecture to development process optimization.",
       },
       {
-        title: "WhatsApp Business Integration",
+        title: "WhatsApp API Integration",
         desc: "Intelligent chatbots and automated customer service via WhatsApp API, connecting your clients to your business 24/7.",
       },
       {
@@ -80,7 +80,7 @@ export const translations = {
         desc: "Orientação estratégica em tecnologia, desde arquitetura de software até otimização de processos de desenvolvimento.",
       },
       {
-        title: "Integração WhatsApp Business",
+        title: "Integração API WhatsApp",
         desc: "Chatbots inteligentes e automação de atendimento via WhatsApp API, conectando seus clientes ao seu negócio 24/7.",
       },
       {
